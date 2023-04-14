@@ -1,3 +1,5 @@
+[toc]
+
 # Final Project
 
 
