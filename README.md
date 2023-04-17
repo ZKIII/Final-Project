@@ -108,12 +108,19 @@ This model is only trained on IMDB review dataset, which can be strongly impacte
 
 ## Division Of Labor
 
-imdb_data_preprocess.py (Contributors: Ziqi Zheng)
+* Data Source
+  * [IMDB Dataset of 50K Movie Reviews \| Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* data processing
+  * imdb_data_preprocess.py (Contributors: Ziqi Zheng)
 
-multi_head_attention.py (Contributors: Zhenyu Wang)
+* basic information of data sets
+  * datastats.py (Contributors: Zhenyu Wang)
 
-imdb_text_classifier.py (Contributors: Ziqi Zheng & Zhenyu Wang)
+* Transformer
+  * multi_head_attention.py (Contributors: Zhenyu Wang)
 
-README.md (Contributors: Ziqi Zheng & Zhenyu Wang)
+* RNN
+  * imdb_text_classifier.py (Contributors: Ziqi Zheng & Zhenyu Wang)
 
-Data Source: [IMDB Dataset of 50K Movie Reviews \| Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* Final Report
+  * README.md (Contributors: Ziqi Zheng & Zhenyu Wang)
