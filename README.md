@@ -1,5 +1,3 @@
-[toc]
-
 # Final Project
 
 
@@ -107,6 +105,8 @@ This model is only trained on IMDB review dataset, which can be strongly impacte
 
 
 ## Division Of Labor
+
+> This is the steps of executing code also.
 
 * Data Source
   * [IMDB Dataset of 50K Movie Reviews \| Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
