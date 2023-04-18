@@ -1,3 +1,4 @@
+import nltk
 from nltk.corpus import stopwords
 import re
 import pandas as pd
@@ -6,6 +7,7 @@ import matplotlib.pyplot as plt
 from functools import reduce
 from collections import Counter
 
+nltk.download('stopwords')
 stop_words = stopwords.words("english")
 filter_tokens = ['!','"','#','$','%','&','\(','\)','\*','\+',',','-','\.','/',':',';','<','=','>','\?','@','\[','\\','\]','^','_','`','\{','\|','\}','~','\t','\n','\x97','\x96','”','“',]
 
