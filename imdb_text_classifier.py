@@ -54,7 +54,7 @@ class LSTMClassifier(nn.Module):
     def __init__(self, vocab_size, embedding_size, hidden_dim, rnn_layer=1):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, embedding_size)
-        self.extractor = nn.LSTM(input_size=embedding_dim, 
+        self.extractor = nn.LSTM(input_size=embedding_size,
                                hidden_size=hidden_dim,
                                num_layers=rnn_layer,
                                batch_first=True,
